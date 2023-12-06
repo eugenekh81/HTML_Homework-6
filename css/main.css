@@ -11,6 +11,7 @@
 @import "./nav.css";
 @import "./is-active.css";
 @import "./contacts.css";
+@import "./header-icons.css";
 @import "./section.css";
 @import "./hero.css";
 @import "./features.css";
@@ -20,7 +21,6 @@
 @import "./clients-icons.css";
 @import "./footer.css";
 
-
 @import "./filter.css";
 @import "./projects.css";
 @import "./overlay-projects.css";
@@ -29,4 +29,4 @@
 @import "./backdrop.css";
 @import "./modal-icons.css";
 
-@import "./subscription.css"
+@import "./subscription.css";
