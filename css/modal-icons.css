@@ -9,8 +9,10 @@
 }
 
 .modal-icons__button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   padding: 0;
-  margin: 8px 8px 0 0;
 
   border: none;
   background: none;
