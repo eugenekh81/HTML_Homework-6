@@ -1,0 +1,17 @@
+.modal-icons__svg {
+  width: 30px;
+  height: 30px;
+}
+
+.modal-icons__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-icons__button {
+  padding: 0;
+  margin: 8px 8px 0 0;
+
+  border: none;
+  background: none;
+}
