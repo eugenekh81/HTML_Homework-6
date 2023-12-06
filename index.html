@@ -466,11 +466,25 @@
               </li>
             </ul>
           </div>
-          <div>
-            <form class="form">
-              <label for="email">Підпишіться на розсилку</label>
-              <input class="form__input" type="email" name="username" id="email" />
+          <div class="subscription">
+            <form class="subscription__form">
+              <label class="subscription__form-label" for="email"
+                >Підпишіться на розсилку</label
+              >
+              <input
+                class="subscription__form-input"
+                type="email"
+                name="username"
+                id="email"
+                placeholder="E-mail"
+              />
             </form>
+            <button class="button subscription__button">
+              <p class="subscription__button-text">Підписатися</p>
+              <svg class="subscription__svg-icon">
+                <use href="./images/svg/icons.svg#telegram"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>

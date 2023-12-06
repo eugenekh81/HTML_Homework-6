@@ -20,6 +20,7 @@
 @import "./clients-icons.css";
 @import "./footer.css";
 
+
 @import "./filter.css";
 @import "./projects.css";
 @import "./overlay-projects.css";
@@ -27,3 +28,5 @@
 @import "./modal.css";
 @import "./backdrop.css";
 @import "./modal-icons.css";
+
+@import "./form.css"
