@@ -1,4 +1,4 @@
-.modal__form {
+.modal-form {
   display: flex;
   flex-direction: column;
 }
@@ -46,35 +46,9 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form__input:focus,
 .modal-form__input:hover,
-.modal-form__comment:focus,
 .modal-form__comment:hover {
   border: 1px solid #2196f3;
-  outline: none;
-}
-
-.modal-form__checkbox {
-  margin: 0 0 30px 0;
-
-  display: flex;
-  gap: 7px;
-  justify-content: center;
-}
-
-.modal-checkbox__label {
-  color: #757575;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.42px;
-}
-
-.modal-checkbox__link {
-  color: #2196f3;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.42px;
-  text-decoration-line: underline;
 }
 
 .modal-form__button {

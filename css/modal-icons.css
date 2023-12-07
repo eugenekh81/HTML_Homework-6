@@ -1,3 +1,8 @@
+.modal-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .modal-icons__svg {
   width: 30px;
   height: 30px;
@@ -5,11 +10,6 @@
   color: #000;
 
   transition: color 250ms var(--cubic-bezier-easing);
-}
-
-.modal-icons__container {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .modal-icons__button {
