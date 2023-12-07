@@ -479,7 +479,7 @@
                 <input
                   class="subscription__form-input"
                   type="email"
-                  name="email"
+                  name="mail"
                   id="email"
                   placeholder="E-mail"
                   autocomplete="email"
@@ -513,13 +513,28 @@
         <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
           <label class="modal-form__label" for="modal-name">Ім'я</label>
-          <input class="modal-form__input" type="text" id="modal-name" />
+          <input
+            class="modal-form__input"
+            type="text"
+            id="modal-name"
+            name="user_name"
+          />
 
           <label class="modal-form__label" for="modal-phone">Телефон</label>
-          <input class="modal-form__input" type="tel" id="modal-phone" />
+          <input
+            class="modal-form__input"
+            type="tel"
+            id="modal-phone"
+            name="user_tel"
+          />
 
           <label class="modal-form__label" for="modal-email">Пошта</label>
-          <input class="modal-form__input" type="email" id="modal-email" />
+          <input
+            class="modal-form__input"
+            type="email"
+            id="modal-email"
+            name="user_mail"
+          />
 
           <label class="modal-form__label" for="comment">Коментар</label>
           <textarea
@@ -536,6 +551,7 @@
               class="modal-checkbox__input"
               type="checkbox"
               id="modal-checkbox"
+              name="modal-checkbox"
             />
             <label class="modal-checkbox__label" for="modal-checkbox"
               >Погоджуюся з розсилкою та приймаю
