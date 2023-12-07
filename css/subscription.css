@@ -22,6 +22,12 @@
   height: 50px;
 
   color: #fff;
+
+  transition: border 250ms var(--cubic-bezier-easing);
+}
+
+.subscription__form-input:hover {
+  border: 1px solid var(--main-blue-color);
 }
 
 .subscription__form-label {
