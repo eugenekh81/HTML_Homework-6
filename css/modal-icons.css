@@ -1,6 +1,10 @@
 .modal-icons__svg {
   width: 30px;
   height: 30px;
+
+  color: #000;
+
+  transition: color 250ms var(--cubic-bezier-easing);
 }
 
 .modal-icons__container {
@@ -16,4 +20,8 @@
 
   border: none;
   background: none;
+}
+
+.modal-icons__svg:hover {
+  color: var(--main-blue-color);
 }
