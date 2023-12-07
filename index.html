@@ -503,10 +503,41 @@
             </svg>
           </button>
         </div>
-        <h5 class="modal-title">Залиште свої дані, ми вам передзвонимо</h5>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal__form">
-          <label class="modal__label" for="name">Ім'я</label>
-          <input class="modal__input" type="text" id="name" />
+          <label class="modal-form__label" for="modal-name">Ім'я</label>
+          <input class="modal-form__input" type="text" id="modal-name" />
+
+          <label class="modal-form__label" for="modal-phone">Телефон</label>
+          <input class="modal-form__input" type="tel" id="modal-phone" />
+
+          <label class="modal-form__label" for="modal-email">Пошта</label>
+          <input class="modal-form__input" type="email" id="modal-email" />
+
+          <label class="modal-form__label" for="comment">Коментар</label>
+          <textarea
+            class="modal-form__comment"
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Введіть текст"
+          ></textarea>
+
+          <div class="modal-form__checkbox">
+            <input
+              class="modal-checkbox__input"
+              type="checkbox"
+              id="modal-checkbox"
+            />
+            <label class="modal-checkbox__label" for="modal-checkbox"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#" class="modal-checkbox__link">Умови договору</a></label
+            >
+          </div>
+          <div class="modal-form__button">
+            <button class="button modal-form__item">Відправити</button>
+          </div>
         </form>
       </div>
     </div>
