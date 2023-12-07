@@ -24,6 +24,8 @@
   color: rgba(255, 255, 255, 0.6);
   line-height: 20px;
   letter-spacing: 0.42px;
+
+  width: fit-content;
 }
 
 .contacts__link:focus,
