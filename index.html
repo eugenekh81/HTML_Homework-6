@@ -472,24 +472,28 @@
           </div>
           <div class="subscription">
             <form class="subscription__form">
-              <label class="subscription__form-label" for="email"
-                >Підпишіться на розсилку</label
-              >
-              <input
-                class="subscription__form-input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-                autocomplete="email"
-              />
+              <div class="subsctoption-form__content--mail">
+                <label class="subscription__form-label" for="email"
+                  >Підпишіться на розсилку</label
+                >
+                <input
+                  class="subscription__form-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail"
+                  autocomplete="email"
+                />
+              </div>
+              <div class="subscription-form__content--button">
+                <button class="button subscription__button" type="submit">
+                  <p class="subscription__button-text">Підписатися</p>
+                  <svg class="subscription__svg-icon">
+                    <use href="./images/svg/icons.svg#telegram"></use>
+                  </svg>
+                </button>
+              </div>
             </form>
-            <button class="button subscription__button" type="submit">
-              <p class="subscription__button-text">Підписатися</p>
-              <svg class="subscription__svg-icon">
-                <use href="./images/svg/icons.svg#telegram"></use>
-              </svg>
-            </button>
           </div>
         </div>
       </div>
