@@ -4,8 +4,8 @@
 }
 
 .modal-icons__svg {
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
 
   color: #000;
 
@@ -18,10 +18,19 @@
   right: 8px;
   padding: 0;
 
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30px;
+  width: 30px;
+
   background: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.modal-icons__svg:hover {
+.modal-icons__button:hover .modal-icons__svg {
   color: var(--main-blue-color);
 }
