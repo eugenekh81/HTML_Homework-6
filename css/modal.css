@@ -26,8 +26,7 @@
 
 .modal__icons_svg {
   width: 18px;
-  height: 18px; 
-
+  height: 18px;
 
   color: #000;
 
@@ -90,6 +89,7 @@
 }
 
 .modal__form_label {
+
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -101,6 +101,8 @@
 }
 
 .modal__form_input {
+  padding: 12px 42px;
+
   height: 40px;
 
   width: 100%;
@@ -111,12 +113,12 @@
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
-  padding: 12px 16px;
-
   transition: border 250ms var(--cubic-bezier-easing);
 }
 
 .modal__form_comment {
+  padding: 12px 16px;
+
   resize: none;
 
   width: 448px;
@@ -132,7 +134,7 @@ textarea::placeholder {
 
 .modal__form_input:hover,
 .modal__form_comment:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--main-blue-color);
 }
 
 /* modal forms end */
@@ -195,3 +197,32 @@ textarea::placeholder {
 }
 
 /* modal main button end */
+
+/* modal-input icon start */
+
+.modal__container-input {
+  position: relative;
+}
+
+.modal__form-icon {
+  position: absolute;
+
+  top: 11px;
+ left: 12px;
+
+  /* top: 30px;
+  left: 12px; */
+
+  width: 18px;
+  height: 18px;
+
+  color: #212121;
+}
+
+.modal__form_input:hover + .modal__form-icon {
+  color: var(--main-blue-color);
+
+  transition: color 250ms var(--cubic-bezier-easing);
+}
+
+/* modal-input icon end */

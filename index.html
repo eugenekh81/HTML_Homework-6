@@ -515,30 +515,48 @@
         <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal__form">
           <div class="modal__group">
-            <label class="modal__form_label">
-              <div class="modal__label_text">Ім'я</div>
-              <input class="modal__form_input" type="text" name="user_name" />
-              <!-- <svg class="modal__input-icon"></svg> -->
+            <label class="modal__form_label"
+              >Ім'я
+              <div class="modal__container-input">
+                <input class="modal__form_input" type="text" name="user_name" />
+                <svg class="modal__form-icon">
+                  <use href="./images/svg/icons.svg#modal-person"></use>
+                </svg>
+              </div>
             </label>
           </div>
 
           <div class="modal__group">
             <label class="modal__form_label"
-              ><span class="modal__label_text">Телефон</span>
-              <input class="modal__form_input" type="tel" name="user_tel" />
+              >Телефон
+              <div class="modal__container-input">
+                <input class="modal__form_input" type="tel" name="user_tel" />
+                <svg class="modal__form-icon">
+                  <use href="./images/svg/icons.svg#modal-phone"></use>
+                </svg>
+              </div>
             </label>
           </div>
 
           <div class="modal__group">
             <label class="modal__form_label"
-              ><span class="modal__label_text">Пошта</span>
-              <input class="modal__form_input" type="email" name="user_mail" />
+              >Пошта
+              <div class="modal__container-input">
+                <input
+                  class="modal__form_input"
+                  type="email"
+                  name="user_mail"
+                />
+                <svg class="modal__form-icon">
+                  <use href="./images/svg/icons.svg#modal-mail"></use>
+                </svg>
+              </div>
             </label>
           </div>
 
           <div class="modal__group modal__group--mrgn-20">
             <label class="modal__form_label"
-              ><span class="modal__label_text">Коментар</span>
+              >Коментар
               <textarea
                 class="modal__form_comment"
                 name="comment"
