@@ -193,7 +193,7 @@ textarea::placeholder {
 }
 
 .modal__checkbox_input:checked + .modal__checkbox_icon {
-  background-image: url(../images/svg/icon-check.svg);
+  background-image: url(../images/svg/checkbox.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: border-box;
