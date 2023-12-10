@@ -70,15 +70,14 @@ input::placeholder {
   background: var(--main-blue-color);
   color: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
 
-.subscription__button-text {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
 }
+
 .subscription__svg-icon {
   width: 24px;
   height: 24px;

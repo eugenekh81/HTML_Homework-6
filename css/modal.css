@@ -239,6 +239,8 @@ textarea::placeholder {
 
 .modal__container-input {
   position: relative;
+
+  display: inline;
 }
 
 .modal__form_icon {
