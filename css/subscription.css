@@ -8,16 +8,13 @@
   gap: 12px;
 }
 
-.subsctoption-form__content--mail {
+.subsctoption__content-mail {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
-.subsctoption-form__content--button {
-}
-
-.subscription__form-input {
+.subscription__form_input {
   padding: 15px 16px;
 
   border-radius: 4px;
@@ -33,11 +30,11 @@
   transition: border 250ms var(--cubic-bezier-easing);
 }
 
-.subscription__form-input:hover {
+.subscription__form_input:hover {
   border: 1px solid var(--main-blue-color);
 }
 
-.subscription__form-label {
+.subscription__form_label {
   color: #fff;
 
   font-size: 14px;
