@@ -251,8 +251,11 @@ textarea::placeholder {
   height: 18px;
 
   color: #212121;
+
+  transition: color 250ms var(--cubic-bezier-easing);
 }
 
+.modal__form_input:focus + .modal__form-icon,
 .modal__form_input:hover + .modal__form-icon {
   color: var(--main-blue-color);
 
