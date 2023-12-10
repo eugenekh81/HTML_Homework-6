@@ -241,7 +241,7 @@ textarea::placeholder {
   position: relative;
 }
 
-.modal__form-icon {
+.modal__form_icon {
   position: absolute;
 
   top: 11px;
@@ -255,8 +255,8 @@ textarea::placeholder {
   transition: color 250ms var(--cubic-bezier-easing);
 }
 
-.modal__form_input:focus + .modal__form-icon,
-.modal__form_input:hover + .modal__form-icon {
+.modal__form_input:focus + .modal__form_icon,
+.modal__form_input:hover + .modal__form_icon {
   color: var(--main-blue-color);
 
   transition: color 250ms var(--cubic-bezier-easing);
