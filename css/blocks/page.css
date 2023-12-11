@@ -1,0 +1,11 @@
+.page {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__body--no-scroll {
+  overflow: hidden;
+}
