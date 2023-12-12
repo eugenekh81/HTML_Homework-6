@@ -1,3 +1,7 @@
+.features__title--hidden {
+  display: none;
+}
+
 .features__list {
   display: flex;
   gap: 30px;
