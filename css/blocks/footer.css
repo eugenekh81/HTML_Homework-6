@@ -5,14 +5,13 @@
 
 .footer__content {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 94px;
 }
 
 .footer__navigation {
   display: flex;
   flex-direction: column;
-
   gap: 28px;
 }
 
