@@ -8,12 +8,7 @@
 
 .team__title {
   margin: 0 0 50px;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-  color: rgba(33, 33, 33, 1);
-}
+} 
 
 .team__list {
   display: flex;

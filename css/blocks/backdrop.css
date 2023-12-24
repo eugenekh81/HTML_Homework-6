@@ -4,17 +4,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-
   overflow: hidden;
-
   background-color: rgba(0, 0, 0, 0.2);
-
   transition: opacity 300ms ease;
 }
 
 .backdrop--hidden {
   opacity: 0;
-
   pointer-events: none;
 }
 
@@ -29,7 +25,6 @@
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
   transition: transform 300ms ease;
 }
 
@@ -94,6 +89,7 @@
   height: 40px;
   flex-shrink: 0;
 }
+
 .form__input:focus,
 .form__input:hover {
   outline-color: #2196f3;
@@ -102,22 +98,7 @@
 
 .form__input:focus + .form__icon,
 .form__input:hover + .form__icon {
-  transform:  translate(-220% , -200%) scale(1.5) rotate3d(1, 1, 1, 360deg);
-  border-radius: 25%;
-  box-shadow: 0  4px 8px rgba(0, 0, 0, 0.3);
   color: rgb(33, 150, 243);
-}
-
-@keyframes rotate3D {
-  0% {
-    transform: rotateY(0deg) rotateX(0deg);
-  }
-  50% {
-    transform: rotateY(180deg) rotateX(180deg);
-  }
-  100% {
-    transform: rotateY(360deg) rotateX(360deg);
-  }
 }
 
 .form__icon {
@@ -127,21 +108,22 @@
   width: 18px;
   height: 18px;
   transition: all 0.3s linear;
-  perspective:740px;
+  perspective: 740px;
   color: #212121;
 }
+
 .form__comment {
   padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
-  
   width: 448px;
   height: 120px;
   transition: all 0.25s linear;
   flex-shrink: 0;
   resize: none;
 }
+
 .form__comment:focus,
 .form__comment:hover {
   outline-color: #2196f3;
@@ -158,31 +140,34 @@
   color: #757575;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
 }
+
 .form__checkbox {
-   cursor: pointer;
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  appearance:none;
-  position: absolute;  
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
 }
-.form__checkbox--icon{
+
+.form__checkbox--icon {
   align-self: center;
   background-image: url('../../images/svg/checkbox.svg#checkbox');
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   border: 2px solid rgba(33, 33, 33, 1);
   border-radius: 4px;
   width: 14px;
-  height: 13px; 
+  height: 13px;
 }
-.form__checkbox:checked + .form__checkbox--icon  {
+
+.form__checkbox:checked + .form__checkbox--icon {
   background-color: rgba(33, 150, 243, 1);
   border-color: rgba(33, 150, 243, 1);
-  background-origin: border-box; 
- } 
+  background-origin: border-box;
+}
 
 .form__link {
   color: #2196f3;
@@ -191,6 +176,7 @@
   line-height: 24px;
   letter-spacing: 0.42px;
 }
+
 .form__button {
   align-self: center;
   width: 200px;

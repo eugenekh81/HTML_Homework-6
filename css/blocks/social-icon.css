@@ -1,37 +1,31 @@
-
-
-
-
-.social__list{
+.social__list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-
-.social__link{
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
-  color: #AFB1B8;
+  color: #afb1b8;
   border-radius: 50%;
   transition-duration: 0.3s;
 }
-.social__link:hover{
-  background-color:#2196F3;
-  color: #FFFFFF;
+
+.social__link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
-.social__icon{
+.social__icon {
   width: 20px;
   height: 20px;
 }
 
-
-
- .socials__link--footer {
-   color: #fff;
-   background-color: #ffffff1a;
- }
+.socials__link--footer {
+  color: #fff;
+  background-color: #ffffff1a;
+}

@@ -3,11 +3,9 @@
   gap: 50px;
 }
 
-
 .contacts__email {
   display: flex;
   align-items: center;
-  
   font-weight: 500;
   font-size: 14px;
   line-height: normal;
@@ -35,11 +33,6 @@
   transition-duration: 0.3s;
 }
 
-
-
-
-
-
 .contacts__mobile {
   display: flex;
   align-items: center;
@@ -50,15 +43,13 @@
   transition-duration: 0.3s;
 }
 
-
 .contacts__mobile-icon {
   margin: 0 10px 0 0;
-    width:10px;
-    height:16px;
-    color: #757575;
-    transition-duration: 0.3s;
+  width: 10px;
+  height: 16px;
+  color: #757575;
+  transition-duration: 0.3s;
 }
-
 
 .contacts__mobile:hover {
   color: var(--color-light-blue);
@@ -67,9 +58,6 @@
 }
 
 .contacts__mobile:hover .contacts__mobile-icon {
-    color: var(--color-light-blue);
-    transition-duration: 0.3s;
+  color: var(--color-light-blue);
+  transition-duration: 0.3s;
 }
-
-
-
